@@ -14,7 +14,6 @@ img {
 #root {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
-
 }
 
 /* header */
@@ -46,6 +45,8 @@ nav ul {
     cursor: pointer;
     color: #464646;
 }
+
+
 
 /* main */
 main {
@@ -90,7 +91,6 @@ h2 {
 }
 
 /* footer list */
-
 .footerlist {
     display: flex;
 
@@ -106,7 +106,6 @@ h2 {
 .column {
     margin-right: 30px;
     flex-direction: column;
-
 }
 
 .column li {
@@ -120,4 +119,34 @@ h3 {
     padding: 10px;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+/* footer list */
+.footerbtn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    text-transform: uppercase;
+    padding: 30px 200px;
+}
+
+button {
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #303030;
+    font-weight: bold;
+    border: 3px solid #0282f9;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span {
+    color: #0282f9;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
