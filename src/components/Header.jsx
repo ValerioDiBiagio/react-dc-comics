@@ -5,8 +5,8 @@ import logo from "../assets/img/dc-logo.png";
 // funzione Header
 export default function Header() {
     return (<header>
-        <img className="dclogo" src={logo} alt="logo-dc" />
         <nav>
+            <div><img className="dclogo" src={logo} alt="logo-dc" /></div>
             <ul>
                 <li className="hovereffect">Characters</li>
                 <li className="hovereffect">Comics</li>
