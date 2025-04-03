@@ -1,4 +1,4 @@
 // funzione Main
 export default function Main() {
-    return (<main> Corpo della pagina </main>);
+    return (<main> <h2> -- Content goes here -- </h2> </main>);
 }

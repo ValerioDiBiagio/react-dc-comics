@@ -7,7 +7,6 @@
 
 /* body */
 #root {
-    width: 1200px;
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
 
@@ -17,6 +16,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    padding: 0px 200px;
 }
 
 /* logo */
@@ -39,4 +39,16 @@ ul {
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    color: #464646;
+}
+
+/* main */
+main {
+    padding: 0px 200px;
+    background-color: #000000;
+}
+
+h2 {
+    padding: 50px;
+    color: #ffffff
 }
