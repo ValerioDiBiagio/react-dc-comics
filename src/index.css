@@ -6,6 +6,7 @@
 }
 
 img {
+    max-height: 100%;
     display: block;
 }
 
@@ -34,7 +35,7 @@ header nav {
     display: flex;
 }
 
-ul {
+nav ul {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -59,6 +60,7 @@ h2 {
 
 /* footer */
 
+/* footer menù */
 .footer-menu {
     display: flex;
     justify-content: space-between;
@@ -85,4 +87,37 @@ h2 {
 .footer-nav-text {
     padding-left: 10px;
     font-weight: 400;
+}
+
+/* footer list */
+
+.footerlist {
+    display: flex;
+
+    background-image: url(assets/img/footer-bg.jpg);
+    padding: 40px 200px;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    margin-right: 30px;
+    flex-direction: column;
+
+}
+
+.column li {
+    list-style: none;
+    font-size: 10px;
+    padding-left: 10px;
+    color: #959595;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
