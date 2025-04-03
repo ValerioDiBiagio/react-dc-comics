@@ -1,4 +1,10 @@
+
+import FooterMenu from "./footer-components/Footer-menu";
+
+
 // funzione Footer
 export default function Footer() {
-    return (<footer> Piede della pagina </footer>);
+    return (<footer>
+        <FooterMenu />
+    </footer>);
 }
