@@ -46,7 +46,16 @@ nav ul {
     color: #464646;
 }
 
+header ul li {
+    padding: 70px 0;
+    border-bottom: 4px solid transparent;
+}
 
+nav ul .hovereffect:hover {
+    color: #0282f9;
+    border-bottom: 3px solid #0282f9;
+
+}
 
 /* main */
 main {

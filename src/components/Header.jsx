@@ -8,16 +8,16 @@ export default function Header() {
         <img className="dclogo" src={logo} alt="logo-dc" />
         <nav>
             <ul>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Collectibles</li>
-                <li>Videos</li>
-                <li>Fans</li>
-                <li>News</li>
-                <li>Shop</li>
+                <li className="hovereffect">Characters</li>
+                <li className="hovereffect">Comics</li>
+                <li className="hovereffect">Movies</li>
+                <li className="hovereffect">TV</li>
+                <li className="hovereffect">Games</li>
+                <li className="hovereffect">Collectibles</li>
+                <li className="hovereffect">Videos</li>
+                <li className="hovereffect">Fans</li>
+                <li className="hovereffect">News</li>
+                <li className="hovereffect">Shop</li>
             </ul>
         </nav>
     </header>);
