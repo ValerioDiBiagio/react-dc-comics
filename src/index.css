@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+}
+
 /* body */
 #root {
     margin: 0 auto;
@@ -26,7 +30,7 @@ header {
 
 /* menu */
 
-nav {
+header nav {
     display: flex;
 }
 
@@ -51,4 +55,34 @@ main {
 h2 {
     padding: 50px;
     color: #ffffff
+}
+
+/* footer */
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: #ffffff;
+    padding: 40px 200px;
+    background-color: #0282f9;
+}
+
+.footer-menu li {
+    display: flex;
+    align-items: center;
+}
+
+.footermenuimg {
+    height: 45px;
+    width: 35px;
+}
+
+.footermenuimgsvg {
+    width: 45px;
+}
+
+.footer-nav-text {
+    padding-left: 10px;
+    font-weight: 400;
 }
