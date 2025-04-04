@@ -71,7 +71,7 @@ h2 {
 /* footer menù */
 .footer-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 30px;
     color: #ffffff;
     padding: 40px 200px;
