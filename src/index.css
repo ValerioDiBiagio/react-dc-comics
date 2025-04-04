@@ -11,8 +11,12 @@ img {
 }
 
 a {
-    all: unset;
+    text-decoration: none;
+
 }
+
+
+
 
 /* body */
 #root {
@@ -44,7 +48,9 @@ nav ul {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
-    cursor: pointer;
+}
+
+nav ul a {
     color: #464646;
 }
 
@@ -54,9 +60,12 @@ header ul li {
 }
 
 nav ul .hovereffect:hover {
-    color: #0282f9;
     border-bottom: 3px solid #0282f9;
 
+}
+
+nav ul a:hover {
+    color: #0282f9;
 }
 
 /* main */
@@ -123,6 +132,9 @@ h2 {
     list-style: none;
     font-size: 10px;
     padding-left: 10px;
+}
+
+.column li a {
     color: #959595;
 }
 
