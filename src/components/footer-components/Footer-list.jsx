@@ -1,6 +1,9 @@
 // importare listlink
 import ListLink from "./Footer-link";
 
+// importare logo
+import FooterLogo from './Footer-logo.jsx'
+
 // funzione Footer List
 export default function FooterList(props) {
     return (<div className="footerlist">
@@ -50,6 +53,10 @@ export default function FooterList(props) {
                     <ListLink link={props.sites[4]} />
                 </ul>
             </div>
+            <div className="footer-logo-container">
+                <FooterLogo />
+            </div>
+
         </div>
     </div>);
 }
