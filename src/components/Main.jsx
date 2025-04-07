@@ -9,9 +9,15 @@ import ComicsList from './Main-components/Product-list';
 
 // funzione Main
 export default function Main() {
-    return (<main> <Jumbotron />
-        <div>
-            <ComicsList comics={comics} />
-        </div>
-    </main>);
+    return (
+        <main>
+            <div><Jumbotron /></div>
+            <div className='label'>Current Series</div>
+
+            <div className=' comics-raw'>
+                <ComicsList comics={comics} />
+            </div>
+
+            <div className='bottone'><button className='main-btn'>Load More</button></div>
+        </main>);
 }
