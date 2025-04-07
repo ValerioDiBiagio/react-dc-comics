@@ -7,7 +7,7 @@ import FooterLogo from './Footer-logo.jsx'
 // funzione Footer List
 export default function FooterList(props) {
     return (<div className="footerlist">
-        <div className="row">
+        <div className="raw">
             <div className="column">
                 <ul>
                     <h3>DC Comics</h3>
